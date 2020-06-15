@@ -1,0 +1,48 @@
+ <style>
+* {
+
+  box-sizing: border-box;
+  font-family: helvetica arial black;
+  margin:0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+h1{
+  text-align: center;
+  
+  background-color: orange;
+}
+section {
+   border: 1px solid black;
+   background-color: grey;
+    float: left;
+    width: 90%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    }
+section > span {
+   border: 1px solid black;
+   background-color: yellow;
+     width:20%;
+   float: right;
+    clear: both;
+  
+}
+.row {
+  width: 100%;
+}
+@media (min-width: 992px){
+  .col-lg-4 {
+    width: 30%;
+  }
+}
+@media (max-width: 991px ) and (min-width: 768px){
+  .col-md-6 {
+    width: 45%;
+  }
+}
+
+ 
+
+  </style>
